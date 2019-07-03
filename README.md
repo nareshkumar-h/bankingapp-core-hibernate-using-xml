@@ -36,7 +36,8 @@
 	</session-factory>
 </hibernate-configuration>
 ```
-
+Note:
+* Update your database url, username,password in the cfg.xml file.
 
 #### Task 2: Create Utility - to get connection ( HibernateUtil.java )
 ```
