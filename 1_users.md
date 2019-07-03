@@ -20,3 +20,8 @@
 	</class>
 </hibernate-mapping>
 ```
+
+#### Task 4: Add entry in hibernate.cfg.xml
+```
+<mapping resource ="user.hbm.xml"/>
+```
