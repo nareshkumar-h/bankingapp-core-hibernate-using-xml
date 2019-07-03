@@ -77,6 +77,10 @@ public class TestHibernateUtil {
 	}
 }
 ```
+Output:
+```
+org.hibernate.internal.SessionFactoryImpl@56da52a7
+```
 
 #### Task 3 : Create Model class ( User.java )
 
