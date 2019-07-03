@@ -66,7 +66,6 @@ public class HibernateUtil {
 
 }
 ```
-```
 Testing:
 ```
 public class TestHibernateUtil {
@@ -77,7 +76,9 @@ public class TestHibernateUtil {
 	}
 }
 ```
+
 Output:
+
 ```
 org.hibernate.internal.SessionFactoryImpl@56da52a7
 ```
