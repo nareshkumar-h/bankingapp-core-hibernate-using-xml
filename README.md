@@ -35,17 +35,7 @@
 		
 	</session-factory>
 </hibernate-configuration>
-```
-Testing:
-```
-public class TestHibernateUtil {
 
-	public static void main(String[] args) {
-		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
-		System.out.println(sessionFactory);
-	}
-}
-```
 
 #### Task 2: Create Utility - to get connection ( HibernateUtil.java )
 ```
@@ -73,6 +63,17 @@ public class HibernateUtil {
 		return sf;
 	}
 
+}
+```
+```
+Testing:
+```
+public class TestHibernateUtil {
+
+	public static void main(String[] args) {
+		SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
+		System.out.println(sessionFactory);
+	}
 }
 ```
 
