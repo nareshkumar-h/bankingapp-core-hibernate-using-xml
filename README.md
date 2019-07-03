@@ -31,7 +31,7 @@
 		<!--<property name="hibernate.hbm2ddl.auto">create</property> -->
 		<property name="hibernate.show_sql">true</property>
 		
-		<mapping resource ="user.hbm.xml"/>
+		<! -- <mapping resource ="user.hbm.xml"/> -->
 		
 	</session-factory>
 </hibernate-configuration>
