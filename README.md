@@ -39,6 +39,9 @@
 
 #### Task 2: Create Utility - to get connection ( HibernateUtil.java )
 ```
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
 public class HibernateUtil {
 	// SessionFactory is an object designed to create sessions that will interact
 	// with our database
