@@ -35,6 +35,7 @@
 		
 	</session-factory>
 </hibernate-configuration>
+```
 
 
 #### Task 2: Create Utility - to get connection ( HibernateUtil.java )
