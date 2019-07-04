@@ -39,3 +39,20 @@ sess.delete(user);
 Query<User> createQuery = sess.createQuery("from User u", User.class);
 List<User> userList = createQuery.getResultList();
 ```
+
+
+#### What is HQL ? 
+* HQL - Hibernate Query Language ( e.g from User )
+* HQL considers the java objects in a similar way as that of the SQL.
+
+#### What is Transaction ?
+* Atomic Unit of work.
+
+#### Why is ORM preferred over JDBC ?
+* It allows business code access the objects rather than Database tables.
+* It hides the details of SQL queries from OO logic.
+* It is based on JDBC “under hood”.
+* Dealing with database implementation is not required.
+* Entities are based on business concepts rather than database structures.
+* It generates the automatic key and Transaction management.
+* Application development is faster.
