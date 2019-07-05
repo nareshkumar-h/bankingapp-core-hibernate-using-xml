@@ -44,3 +44,11 @@ Output:
 ```
 org.hibernate.internal.SessionFactoryImpl@56da52a7
 ```
+
+## Notes
+#### Configuration class :
+*  gathers the information from hibernate.cfg.xml and is used to create a session factory
+#### SessionFactory interface
+* The SessionFactory object configures Hibernate for the application using the supplied configuration object and allows for a Session object to be instantiated. 
+* It also stores information on how to make connections to the database. 
+
