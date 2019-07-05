@@ -56,3 +56,17 @@ List<User> userList = createQuery.getResultList();
 * Entities are based on business concepts rather than database structures.
 * It generates the automatic key and Transaction management.
 * Application development is faster.
+
+## Notes:
+#### Session interface
+* A session is used to get a physical connection with a database. It is designed to be instantiated each time an interaction is needed with a database. Session objects save and retrieve persistent objects.
+
+#### Transaction interface:
+* A transaction object allows you to access transaction functionality by abstracting JDBC transaction operations. Transactions in Hibernate are ACID
+
+#### Query interface:
+* Query objects use SQL or Hibernate Query Language (HQL) to retrieve data from the database and create objects.
+
+#### HQL
+* Hibernate Query Language is an object-oriented query language, similar to SQL, but instead works with persistent objects and their properties. It uses a combination of object oriented programming and SQL. Database independent.
+
