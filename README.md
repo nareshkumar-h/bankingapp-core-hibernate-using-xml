@@ -1,6 +1,7 @@
 ## Hibernate ( ORM )
 
-* Object Relational Mapping
+* Hibernate is a Java object-relational mapping (ORM) and persistence framework that allows you to map plain old Java objects to relational database tables. 
+* Its purpose is to automatically take care of the mapping from Java classes to database tables and provides data query and retrieval facilities. It uses configuration files (XML) or annotations for mapping. 
 
 #### Prerequisite:
 * Create Maven Project
